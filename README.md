@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# GDisk - A google drive clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [Hosted Link]https://classy-douhua-412b07.netlify.app/
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [GDisk - A google drive clone](#gdisk---a-google-drive-clone)
+  - [Hosted Link]https://classy-douhua-412b07.netlify.app/
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+    - [File Management](#file-management)
+    - [Sharing and Accessibility](#sharing-and-accessibility)
+    - [User Experience](#user-experience)
+    - [Personalization](#personalization)
+    - [Security and Authentication](#security-and-authentication)
+  - [Sreenshots](#sreenshots)
+  - [Tech Stack](#tech-stack)
+  - [Get Started](#get-started)
+    - [Install dependencies](#install-dependencies)
+    - [Run the App](#run-the-app)
+    - [Build for Production](#build-for-production)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### File Management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-  Upload Files: Easily upload files of various types and sizes to GDisk.
+-  Download Files: Download your files whenever you need them, ensuring easy access to your data.
+-  Delete Files: Effortlessly manage your storage by deleting files you no longer require.
 
-### `npm test`
+### Sharing and Accessibility
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-  Get Shareable Links: Share your files with others by generating shareable links with customizable access permissions.
+-  Search Functionality: Quickly locate your files using the powerful search feature.
+-  Sorting Options
+   -  Sort by Date Modified: Arrange your files based on their last modification date for better organization.
+   -  Sort by Name: Sort files alphabetically for easy navigation.
+   -  Ascending and Descending Order: Toggle between ascending and descending order for both date modified and name.
 
-### `npm run build`
+### User Experience
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-  Responsive Layout: Enjoy a seamless experience across various devices with GDisk's responsive design.
+-  Storage Limit and Live Progress Bar: Keep track of your storage usage with a live progress bar, ensuring you stay within your allocated limit.
+-  Help Icon to get a detailed application guide
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Personalization
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-  Themes: Customize your GDisk experience by choosing from a variety of themes to suit your preferences.
 
-### `npm run eject`
+### Security and Authentication
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-  Google Authentication: Enhance the security of your account with Google authentication.
+-  Private Files: Keep sensitive files secure by marking them as private, limiting access to only authorized users.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Sreenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Login Screen]![image](https://github.com/MDAEJA/Assigment_react_google_drive/assets/149299483/08280ae2-f2d0-4ee7-8184-1d0b968b2a74)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Login Screen
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Dashboard Light Mode](/screenshots/dashboard.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Dashboard data show 
 
-### Code Splitting
+![Dashboard page without data]![image](https://github.com/MDAEJA/Assigment_react_google_drive/assets/149299483/c1c19b74-a3bc-4351-b5e6-3a301b01c1a6)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Dashboard Data set
+![Dashboard page with data]![image]![image](https://github.com/MDAEJA/Assigment_react_google_drive/assets/149299483/642d587c-679a-47e0-b54e-5687f3b23238)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Tech Stack
 
-### Making a Progressive Web App
+-  [React](https://react.dev/)
+-  [Redux Toolkit](https://redux-toolkit.js.org/)
+-  [Firebase](https://firebase.google.com/)
+-  [shadcn/ui](https://ui.shadcn.com/)
+-  [Radix UI](https://www.radix-ui.com/)
+-  [React Toastify](https://www.npmjs.com/package/react-toastify)
+-  [React Custom Scrollbars](https://www.npmjs.com/package/react-custom-scrollbars)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Get Started
 
-### Advanced Configuration
+You can install GDisk locally using any package manager such as `npm`, `yarn` or `pnpm` in the project root directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Install dependencies
 
-### Deployment
+```bash
+bun install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Run the App
 
-### `npm run build` fails to minify
+```bash
+bun run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Build for Production
+
+```bash
+bun run build
+```
+
+---
+
+This project was created by using react and material ui.
