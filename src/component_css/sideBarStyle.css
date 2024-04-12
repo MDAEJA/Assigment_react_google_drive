@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button-style{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    margin: 10px 10px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.button-style span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.my-devices{
+    display: flex;
+    gap:20px;
+    margin: 15px 0;
+}
+.my-devices:hover{
+    background-color: whitesmoke;
+    border-radius: 0px 20px 20px 0px;
+    padding: 5px 10px;
+    color: blue;
+    cursor: pointer;
+}
+.sidebar-div{
+    /* border: 2px solid black; */
+    width: 23%;
+    padding: 10px 50px;
+}
+.storage-div{
+    display: flex;
+    gap:20px;
+    margin: 10px 0;
+    align-items: center;
+    border: none;
+    font-size: 13px;
+}
+/* .style={{position:'absolute',top:'50%',left:'50%'}}> */
+.pop-up{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border: 2px solid black;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.modal_pop{
+    top:'50%';
+    background-color: #fff;
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    transform: translateY(80%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.modalHeading{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
+input.post_submit{
+width: 100%;
+background-color: #2381fa;
+padding: 10px 20px;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-size: 1rem;
+border: 0;
+outline: 0;
+border-radius: 5px;
+cursor: pointer;
+margin-top: 20px;
+}
+.uploading{
+    width: 100%;
+    background-color: #2381fa;
+    padding: 8px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; 
+    text-align: center;
+}
