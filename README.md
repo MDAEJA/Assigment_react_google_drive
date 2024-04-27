@@ -69,15 +69,7 @@ Dashboard data show
 Dashboard Data set
 ![Dashboard page with data]![image]![image](https://github.com/MDAEJA/Assigment_react_google_drive/assets/149299483/642d587c-679a-47e0-b54e-5687f3b23238)
 
-## Tech Stack
 
--  [React](https://react.dev/)
--  [Redux Toolkit](https://redux-toolkit.js.org/)
--  [Firebase](https://firebase.google.com/)
--  [shadcn/ui](https://ui.shadcn.com/)
--  [Radix UI](https://www.radix-ui.com/)
--  [React Toastify](https://www.npmjs.com/package/react-toastify)
--  [React Custom Scrollbars](https://www.npmjs.com/package/react-custom-scrollbars)
 
 ## Get Started
 
